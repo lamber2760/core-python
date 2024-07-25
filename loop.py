@@ -99,47 +99,81 @@
 
 
 
-a = input("enter your number : ")
+# a = input("enter your number : ")
 
-num = int(input("enter your number :"))
+# num = int(input("enter your number :"))
 
-if num % 5 == 0:
-    print("hello ",a)
-else:
-    print("Bye ",a)    
+# if num % 5 == 0:
+#     print("hello ",a)
+# else:
+#     print("Bye ",a)    
 
    
 ######## question 2
-for i in range(1,100):
-    if i % 5 == 0 and i % 7 == 0:
-        print(i)
+# for i in range(1,100):
+#     if i % 5 == 0 and i % 7 == 0:
+#         print(i)
 
 
 ### question  3
 
-a =[1,2,3,4,5,6,7,8,9,10]
-even_num= 0
-odd_num =0
+# a =[1,2,3,4,5,6,7,8,9,10]
+# even_num= 0
+# odd_num =0
 
-for i in a:
-    if i % 2 == 0:
-        even_num +=1
-    else:
-        odd_num +=1
-print("this is even number",even_num)
-print("this is odd number",odd_num)   
+# for i in a:
+#     if i % 2 == 0:
+#         even_num +=1
+#     else:
+#         odd_num +=1
+# print("this is even number",even_num)
+# print("this is odd number",odd_num)   
 
 
 ### question  4
 
 
-for i in range (1,11):
-    if  (i % 3 == 0 or i % 6 == 0):
-        continue
-    print(i)    
+# for i in range (1,11):
+#     if  (i % 3 == 0 or i % 6 == 0):
+#         continue
+#     print(i) 
+
+
+###
+#        
+# i = 5
+# while i > 0:
+#     print(i)
+#     i -=1
+
+
+# i = 1
+# while i <= 100:
+#     print(i,end=" ")
+#     i +=1
+
+
+# for i in range(1,100):
+#     print(i,end=" ")
+
+
+
+# k = 420
+
+ 
+# list1=[1,2,3,4,5]
+# for i in list1:
+#     k = k+1  
+# print(k)
 
 
  
+for i in range(6,0,-1):
+    for k in range(1,6-i):
+        print(" ",end="")
+    for j in range(1,(2 * i-1)+1):
+        print("*",end="")   
+    print("\n")
 
 
 

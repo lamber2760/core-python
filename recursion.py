@@ -16,12 +16,19 @@
 
 ## queustion 232
 
-def print_list(list,indx = 0):
-    if (indx == len(list)):
-        return
+# def print_list(list,indx = 0):
+#     if (indx == len(list)):
+#         return
     
-    print(list[indx])
-    print_list(list,indx + 1)
+#     print(list[indx])
+#     print_list(list,indx + 1)
 
-fruits = [ "mango","apple","orange","banana"]     
-print_list(fruits)   
+# fruits = [ "mango","apple","orange","banana"]     
+# print_list(fruits) 
+
+
+friend=["apple","orange",5,345,False,"honey","rohan"]
+print(friend[-4])
+friend[0]="mango"
+print(friend[0])
+print(friend)  

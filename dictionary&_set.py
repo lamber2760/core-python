@@ -76,7 +76,21 @@
 # print(marks)
 
 
-for i in range(10):
-    print(i * "*")
-for j in range(10,0,-1):
-    print(j * "*")  
+# for i in range(10):
+#     print(i * "*")
+# for j in range(10,0,-1):
+#     print(j * " *")  
+
+
+
+d={}
+name = input("enter your name : ")
+lamp = input("enter your lamp : ")
+d.update({name:lamp})
+name = input("enter your name : ")
+lamp = input("enter your lamp : ")
+d.update({name:lamp})
+name = input("enter your name : ")
+lamp = input("enter your lamp : ")
+d.update({name:lamp})
+print(d)
