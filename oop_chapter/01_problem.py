@@ -8,4 +8,4 @@ p = programmer("Lucky",12000000,176056)
 print(p.company,p.name,p.pincode,p.salary)
 
 r= programmer("sachin",12000000,176056)
-print(r.company,r.name,r.pincode,r.salary)
+print(r.company,r.name,r.pincode,r.salary) 

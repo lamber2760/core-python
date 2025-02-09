@@ -27,11 +27,11 @@
 # for i in s:
 #     print(i)    
 
-# l =[1,6,4]
-# for i in l:
-#     print(i)
-# else:
-#     print("ZDONE")    
+l =[1,6,4]
+for i in l:
+    print(i)
+else:
+    print("ZDONE")    
 
 # for i in range(0,100):
 #     if(i == 89):
@@ -49,10 +49,11 @@
 
 n =int(input("enter the number :"))
 for i in range(1,n+1):
-    print(" "(n-i),end="")
-    print("*"(2 * i -1),end="")
+    print(" "(n-i),  end="")
+    print("*"  (2 * i -1),end="")
     print("")
 
+ 
 
 
 

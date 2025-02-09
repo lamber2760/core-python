@@ -16,4 +16,4 @@ class Train:
 t =Train(12421)
 t.book("kangra","chandigarh")   
 t.getfare("rampur","bilaspur")
-t.getstatus()            
+t.getstatus()             

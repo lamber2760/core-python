@@ -1,19 +1,17 @@
-# name = input("enter your name :")
-# print(f"good morning, {name}")
+name = input("enter your name :")
+print(f"good morning, {name} kaise ho bhai ")
 
 
-  # replace the word in same positionns 
-# sa ="""Dear<|NAME|>,
+ ## # replace the word in same positionns 
+
+# sa ="""Dear <|NAME|>,
 # YOU ARE SELECTED
 # <|DATE|> """
 
 
 # print(sa.replace("<|NAME|>","SACHIN").replace("<|DATE|>","12 december"))
 
-### double space detected
-
-
-
+### double space detecte
 # df ="he is lamber and good person"
 # print(df.find("d"))
 
@@ -26,7 +24,7 @@
 
 ### 
 
- ##  ecape  letter 
+#  ##  ecape  letter 
 
-letter =" DEAR luckyy.\n\tthis is python course is nice.\nthanku!"
-print(letter)
+# letter =" DEAR luckyy.\n\tthis is python course is nice.\nthanku!"
+# print(letter)
