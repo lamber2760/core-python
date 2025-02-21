@@ -54,11 +54,10 @@
 # nums.insert(4,3)
 # print(nums)
 
-# x =[5,[6,7],9]
-# x[1].append(8)
-# print(x)
+x =[5,[6,7],9]
+x[1].append(8)
+print(x)
 
-# a =(1,56,4,3,8,9,8)
-# print(a.count(8))
+   
 
   
